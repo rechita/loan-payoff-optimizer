@@ -1,4 +1,4 @@
-# 💰 Gam-Gam's Loan Payoff Optimizer
+# Loan Payoff Optimizer
 
 A powerful, interactive loan payoff calculator built with Python & Streamlit. Model lump sums, quarterly payments, monthly extras, and **erratic one-time payments** to see exactly how to pay off your loan faster.
 
