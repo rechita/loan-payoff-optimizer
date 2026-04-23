@@ -330,7 +330,7 @@ with st.sidebar:
     principal = st.number_input(
         "Loan Amount ($)",
         min_value=1000, max_value=1_000_000,
-        value=60000, step=1000,
+        value=50000, step=1000,
         help="Total loan principal"
     )
     
