@@ -20,7 +20,6 @@
 """
 PayoffPilot - Loan Payoff Optimizer
 Copyright (c) 2026 Rechita Singh
-https://linkedin.com/in/rechitasingh
 Licensed under MIT License
 
 Original source: github.com/rechita/loan-payoff-optimizer
@@ -1355,14 +1354,14 @@ st.markdown("---")
 
 st.markdown("""
 <div style="text-align: center; color: #64748b; font-size: 12px; padding: 20px;">
-    <strong> PayoffPilot - Loan Payoff Optimizer</strong> • 
-    Created by <a href="https://linkedin.com/in/rechitasingh" target="_blank" 
-    style="color: #0ea5e9;">Rechita Singh</a><br>
+    <strong>PayoffPilot - Loan Payoff Optimizer</strong> • 
+    Created by <a href="https://www.linkedin.com/in/rechita-singh" target="_blank" 
+    rel="noopener noreferrer" style="color: #0ea5e9;">Rechita Singh</a><br>
     <a href="https://github.com/rechita/loan-payoff-optimizer" target="_blank"
-    style="color: #64748b;">GitHub</a> • 
+    rel="noopener noreferrer" style="color: #64748b;">GitHub</a> • 
     Licensed under MIT<br>
     <em>Every extra dollar toward a high-interest loan is a guaranteed return. No investment beats certainty.</em><br><br>
     Run: <code>streamlit run loan_optimizer.py</code> • 
-    Share with anyone who needs it </em>
+    Share with anyone who needs it
 </div>
 """, unsafe_allow_html=True)
