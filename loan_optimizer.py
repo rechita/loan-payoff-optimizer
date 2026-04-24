@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════╗
-║           PayoffPilot - Loan Payoff Optimizer                  ║
+║           PayoffPilot - Loan Payoff Optimizer                    ║
 ║           Built for financial freedom seekers                    ║
 ║                                                                  ║
 ║  Features:                                                       ║
@@ -13,16 +13,8 @@
 ║  7. Full amortization schedule                                   ║
 ║  8. Visual charts and comparisons                                ║
 ║                                                                  ║
-║  Run: streamlit run loan_optimizer.py                             ║
+║  Run: streamlit run loan_optimizer.py                            ║
 ╚══════════════════════════════════════════════════════════════════╝
-"""
-
-"""
-PayoffPilot - Loan Payoff Optimizer
-Copyright (c) 2026 Rechita Singh
-Licensed under MIT License
-
-Original source: github.com/rechita/loan-payoff-optimizer
 """
 
 __author__ = "Rechita Singh"
@@ -249,6 +241,17 @@ st.markdown("""
         color: #e2e8f0;
         font-size: 28px;
         margin: 0;
+    }
+    .main-header h2 {
+    color: #94a3b8;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 4px 0 0 0;
+    }
+    .main-header p {
+        color: #64748b;
+        font-size: 13px;
+        margin: 8px 0 0 0;
     }
     .main-header p {
         color: #64748b;
@@ -516,10 +519,10 @@ time_saved = original.total_months - optimized.total_months
 # Header
 st.markdown(f"""
 <div class="main-header">
-    <div class="tag">Financial Lab</div>
-    <h1>PayoffPilot - Loan Payoff Optimizer</h1>
-    <p>${principal:,.0f} @ {rate}% for {term} years • 
-    Interactive calculator with lump sum, quarterly, monthly & erratic payment modeling</p>
+    <div class="tag">Repay Lab</div>
+    <h1>PayoffPilot</h1>
+    <h2>A Loan Payoff Optimizer for real-life repayment decisions</h2>
+    <p>Models lump sum, quarterly, monthly & erratic payment</p>
 </div>
 """, unsafe_allow_html=True)
 
