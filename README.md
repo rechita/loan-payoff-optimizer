@@ -9,18 +9,18 @@ A powerful, interactive loan payoff calculator built with Python & Streamlit. Mo
 
 | Feature | Description |
 |---------|-------------|
-| 🧮 **Configurable Inputs** | Loan amount, interest rate, tenure — all adjustable |
-| 💸 **Initial Lump Sum** | One-time upfront principal reduction |
-| 📅 **Quarterly Payments** | Recurring extra payments every 3 months |
-| 📈 **Extra Monthly Payments** | Additional amount on top of your EMI |
-| 🎯 **Erratic Payments** | One-time payments at ANY specific month (bonus, tax refund, etc.) |
-| ⏱️ **Payoff Time Comparison** | See exactly how much faster you'll be debt-free |
-| 💵 **Monthly Installment Impact** | How prepayments change your effective EMI |
-| 💰 **Interest Saved Calculator** | Total interest eliminated by your strategy |
-| 📋 **Full Amortization Schedule** | Month-by-month breakdown, downloadable as CSV |
-| 📊 **Interactive Charts** | Balance curves, interest vs principal splits, scenario comparisons |
-| 🔬 **Scenario Lab** | Compare 7+ quarterly payment levels side by side |
-| 🧪 **Custom Scenario Builder** | Test any combination of parameters |
+|  **Configurable Inputs** | Loan amount, interest rate, tenure — all adjustable |
+|  **Initial Lump Sum** | One-time upfront principal reduction |
+|  **Quarterly Payments** | Recurring extra payments every 3 months |
+|  **Extra Monthly Payments** | Additional amount on top of your EMI |
+|  **Erratic Payments** | One-time payments at ANY specific month (bonus, tax refund, etc.) |
+|  **Payoff Time Comparison** | See exactly how much faster you'll be debt-free |
+|  **Monthly Installment Impact** | How prepayments change your effective EMI |
+|  **Interest Saved Calculator** | Total interest eliminated by your strategy |
+|  **Full Amortization Schedule** | Month-by-month breakdown, downloadable as CSV |
+|  **Interactive Charts** | Balance curves, interest vs principal splits, scenario comparisons |
+|  **Scenario Lab** | Compare 7+ quarterly payment levels side by side |
+|  **Custom Scenario Builder** | Test any combination of parameters |
 
 ## Quick Start
 
@@ -88,6 +88,8 @@ This app works for ANY loan — student loans, mortgages, car payments, personal
 - **Plotly** — Charts and visualizations
 - **Pandas** — Data handling
 
+## Live Link:
+You can access the calculator here: https://rechita-loan-payoff-optimizer-loan-optimizer-ipd2od.streamlit.app/
 ## License
 
 Free to use, share, and modify. Built with ❤️ for financial freedom.
