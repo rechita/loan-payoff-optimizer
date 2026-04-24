@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════╗
-║           LOAN PAYOFF OPTIMIZER                                  ║
+║           PayoffPilot - Loan Payoff Optimizer                  ║
 ║           Built for financial freedom seekers                    ║
 ║                                                                  ║
 ║  Features:                                                       ║
@@ -16,6 +16,20 @@
 ║  Run: streamlit run loan_optimizer.py                             ║
 ╚══════════════════════════════════════════════════════════════════╝
 """
+
+"""
+PayoffPilot - Loan Payoff Optimizer
+Copyright (c) 2026 Rechita Singh
+https://linkedin.com/in/rechitasingh
+Licensed under MIT License
+
+Original source: github.com/rechita/loan-payoff-optimizer
+"""
+
+__author__ = "Rechita Singh"
+__author_url__ = "https://linkedin.com/in/rechitasingh"
+__license__ = "MIT"
+__copyright__ = "Copyright 2026 Rechita Singh"
 
 import streamlit as st
 import plotly.graph_objects as go
@@ -212,7 +226,7 @@ def format_time(months: int) -> str:
 # ─────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Loan Payoff Optimizer",
+    page_title="PayoffPilot - Loan Payoff Optimizer",
     page_icon="💰",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -504,7 +518,7 @@ time_saved = original.total_months - optimized.total_months
 st.markdown(f"""
 <div class="main-header">
     <div class="tag">Financial Lab</div>
-    <h1>💰 Loan Payoff Optimizer</h1>
+    <h1>PayoffPilot - Loan Payoff Optimizer</h1>
     <p>${principal:,.0f} @ {rate}% for {term} years • 
     Interactive calculator with lump sum, quarterly, monthly & erratic payment modeling</p>
 </div>
@@ -1338,12 +1352,17 @@ with tab5:
 # ─────────────────────────────────────────────
 
 st.markdown("---")
+
 st.markdown("""
 <div style="text-align: center; color: #64748b; font-size: 12px; padding: 20px;">
-    <strong>-Loan Payoff Optimizer</strong> • Built with ❤️ for financial freedom<br>
-    <em>Remember: Every extra dollar toward a high-interest loan is a guaranteed return. 
-    No investment beats certainty.</em><br><br>
+    <strong> PayoffPilot - Loan Payoff Optimizer</strong> • 
+    Created by <a href="https://linkedin.com/in/rechitasingh" target="_blank" 
+    style="color: #0ea5e9;">Rechita Singh</a><br>
+    <a href="https://github.com/rechita/loan-payoff-optimizer" target="_blank"
+    style="color: #64748b;">GitHub</a> • 
+    Licensed under MIT<br>
+    <em>Every extra dollar toward a high-interest loan is a guaranteed return. No investment beats certainty.</em><br><br>
     Run: <code>streamlit run loan_optimizer.py</code> • 
-    Share with anyone who needs it
+    Share with anyone who needs it </em>
 </div>
 """, unsafe_allow_html=True)
